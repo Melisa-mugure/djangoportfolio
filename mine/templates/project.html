@@ -1,0 +1,157 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROJECT PAGE</title>
+    <link rel="stylesheet" href="{% static 'css/new.css' %}">
+    <style>
+        a:hover{
+    font-size: 25px;
+    color: darksalmon;
+    border-bottom: cornflowerblue 2px solid;
+}
+        body{
+            background-color: #f8a3b2;
+        }
+        h3{
+            font-family: "Snap ITC";
+            font-size: 35px;
+            color: #a285dc;
+        }
+        .skrr{
+            font-size: 25px;
+            font-family: "Times New Roman";
+            color: #bd5bbd;
+        }
+        h4{
+            font-size: 25px;
+            font-family: Algerian;
+            color: #0e2442;
+        }
+        .excited{
+            font-family: "Times New Roman";
+            font-size: 20px;
+            color: #174483;
+        }
+        .new{
+            color: rgba(0, 0, 0, 0.43);
+            font-size: 30px;}
+        img:hover{
+            transform:scale(1.5);
+            transition: all 2s;
+        }
+        span{color: burlywood}
+            
+          *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+  height: 25vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)),url(../static/images/hills.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo{
+    color: #ce9f64;
+  font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+<div class="hero">
+    <nav>
+        <h2 class="logo">Mella <span>Mewii</span> </h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li> <a href="/contact/">Contact</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/project/">Projects</a></li>
+    </ul>
+    
+    </nav>
+</div>
+
+
+<center><section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h3>My Projects</h3>
+          <p class="skrr">The following is a glimpse of the area I often delve in . It captures the fields I  love and have great pleasure exploring. </p>
+        </div>
+          <img src="{% static 'images/cinemas4.jpg' %}" width="400" class="img-fluid" alt="">
+          <img src="{% static 'images/hills.jpg' %}" width="400" class="img-fluid" alt="">
+           <img src="{% static 'images/streetwear3.jpg' %}" width="225" class="img-fluid" alt="">
+          <img src="{% static 'images/tech pic.jpg' %}" width="400" class="img-fluid" alt="">
+          <img src="{% static 'images/vogue.jpg' %}" width="400" class="img-fluid" alt="">
+          
+
+ <div class="row">
+          <div class="col-md-4" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="col-md-4">
+              <h4>Melisa Mugure</h4>
+              <p class="excited"><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <ul class="excited">
+                <li>Nairobi,Kenya</li>
+                <li>(+254)7810-24643</li>
+                <li>mellamewii@gmail.com</li>
+              </ul>
+            </div>
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="">Professional Experience</h3>
+            <div class="col-md-4">
+              <h4>Senior graphic design specialist</h4>
+              <h5>2019 - Present</h5>
+              <p class="excited"><em>Expedition, New York, NY </em></p>
+              <ul class="excited">
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p class="excited"><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul class="excited">
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+        </div>
+</center>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ABOUT PAGE</title>
+
+  <link rel="stylesheet" href="{% static 'css/new.css' %}">
+
+    <style>
+        a:hover{
+    font-size: 25px;
+    color: darksalmon;
+    border-bottom: cornflowerblue 2px solid;
+}
+        .new{
+            color: rgba(0, 0, 0, 0.43);
+            font-size: 30px;}
+        
+        p{
+            color: #b76fbe;
+            font-size: 20px;
+        }
+        body{
+            background-color: rgba(169, 169, 169, 0.92);
+            background-image: url(../static/images/pink.jpg);
+            background-size:contain;
+        }
+        h3{
+            font-family: Chiller;
+            font-size: 50px;
+            color: #00235b;
+        }
+        .best{
+            font-size: 28px;
+            color: rgb(71, 126, 211);
+            font-family: cursive;
+        }
+        .cute{
+            font-size: 30px;
+            color: #0f6565;
+        }
+        span{color: burlywood
+            
+        }  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+  height: 25vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)),url(../static/images/hills.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo{
+     color: #ce9f64;
+  font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.heyy{
+    font-family: Chiller;
+            font-size: 50px;
+            color: #00235b;
+}
+    </style>
+</head>
+<body><div class="hero">
+    <nav>
+        <h2 class="logo">Mella <span>Mewii</span> </h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li> <a href="/contact/">Contact</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/project/">Projects</a></li>
+    </ul>
+    
+    </nav>
+</div>
+
+<br><br>
+ 
+<center><section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h3>About</h3>
+          <p class="best">Coding is a skill that drives me to explore the diversity of the technological world.It makes me ecstatic as I quench my thirst for know-how of the tech-industry.</p>
+        </div>
+ 
+       <h3 class="heyy">UI/UX Designer &amp; Web Developer.</h3>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            
+            <p class="best">
+              Developing systems and websites is my expertise and I guarantee nothing less than exquisite work.
+            </p>
+           <p>Birthday: 14<sup>th</sup> Dec, 2005</p>
+              <p>Website: mewiarts.www.com</p>
+              <p></p>
+              <p>Phone:
++254781024643</p>
+              <p>City:
+Eldoret, KENYA</p>
+              <p>Age:
+18</p>
+              <p>Degree:
+Undergraduate</p>
+              <p>Email:
+mellamewii05@gmail.com</p>
+              <p>Freelance:
+Available</p>
+            <p class="best">
+              The best programmer on the block daring to explore the vast dicoveries of the technological realm.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+</center>
+
+</body>
+</html>

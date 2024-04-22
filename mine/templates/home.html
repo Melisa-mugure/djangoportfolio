@@ -1,0 +1,163 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{% static 'css/new.css' %}">
+    <style>
+        *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+  height: 25vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)),url(../static/images/hills.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo{
+          color: #ce9f64;
+  font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+        a:hover{
+    font-size: 25px;
+    color: darksalmon;
+    border-bottom: cornflowerblue 2px solid;
+}
+        {#img:hover{#}
+        {#    transform:scale(1.5);#}
+        {#    transition: all 2s;#}
+        body{
+            background-image: url(../static/images/forest.jpg);
+            background-size:contain;
+            background-color: #f8c3ab;
+        }
+        .new{
+            color: rgba(0, 0, 0, 0.43);
+            font-size: 30px;
+        }
+        .new2{
+            font-family: Perpetua;
+            font-size: 80px;
+            color: #f5ad0c;
+          text-underline-color: #0e2442;
+            border-radius:10px ;
+            width: 50%;
+        }
+        
+        .pic{
+            border: #f8c3ab 1px solid;
+            border-radius:10px ;
+        }
+        h6{
+            font-size: 30px;
+            color: darkslategrey;
+            border: crimson 2px solid;
+        width: 25%;
+            border-radius: 15px;
+        
+        }
+        span{
+           color: burlywood;
+        }
+        .detail{
+            margin-left: 8%;
+            margin-top: 15%;
+        }
+        .detail h1{
+            font-size: 50px;
+            color: #e7a8ea;
+            margin-bottom: 20px;
+        }
+        .two{
+            color: #814ba4;
+        }
+        .detail p{
+            color: #ffc040;
+            line-height: 22px;
+            font-size: 22px;
+        }
+        .detail a{
+            background: #b25d5d;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        .images{
+            position: absolute;
+            bottom: 0;
+            right: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <nav>
+        <h2 class="logo">Mella <span>Mewii</span> </h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li> <a href="/contact/">Contact</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/project/">Projects</a></li>
+    </ul>
+    </nav>
+</div>
+ <div class="detail">
+            <h1>I'm Melisa <span class="two">Mugure</span> </h1>
+            <p>This is my official portfolio website to show all
+                <br>details and work experience such as:web development,
+                <br>freelancing,designing programmes and drawing portraits.
+            </p>
+            <a href="#">DOWNLOAD CV</a>
+        </div>
+
+<div class="images">
+    <img class="wow" src="{% static 'images/mypic3.png' %}" width="350" height="400">
+</div>
+    
+    
+  
+    
+    
+    
+  
+
+
+
+
+
+ 
+  
+
+
+
+</body>
+</html>

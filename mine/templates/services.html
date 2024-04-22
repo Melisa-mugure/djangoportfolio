@@ -1,0 +1,219 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SERVICES</title>
+    <link rel="stylesheet" href="{% static 'css/new.css' %}">
+    <style type="text/css">
+        a:hover{
+    font-size: 25px;
+    color: darksalmon;
+    border-bottom: cornflowerblue 2px solid;
+}
+        .flex-box:hover{
+            transition: all 2s;
+            transform: translateY(-40px);
+            color: #f698ff;
+             background: linear-gradient(#566b96, rgba(0, 0, 0, 0.29));
+        }
+        
+        body{ background-image: url(../static/images/job.jpg);
+            background-size:contain;
+            background-color: #3b9681;
+        }
+        h3{
+            color: #123c75;
+            font-size: 30px;
+            font-family: "Snap ITC";
+        }
+        .fancy{
+            font-size: 30px;
+            font-family: "Times New Roman";
+            color: rgb(255, 116, 41);
+        }
+        .services .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 25px;
+            font-family: "Times New Roman";
+}
+
+.services .title a {
+  color: #0f44c0;
+}
+
+.services .title a:hover {
+  color: #155b7c;
+}
+.new {
+    color: rgba(73, 66, 66, 0.43);
+    font-size: 30px;
+}
+
+.services .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 25px;
+    font-family: cursive;
+    color: #ff5757;
+}
+{#img:hover{#}
+{#            transform:scale(1.5);#}
+{#            transition: all 5s;#}
+        
+span{
+    color: burlywood
+            
+        }
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+  height: 25vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)),url(../static/images/hills.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo{
+     color: #b08346;
+  font-size: 28px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-box{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(#ff54f1, rgba(0, 0, 0, 0.64));
+    color: #b0ffc0;
+    font-size:18px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sass{
+    font-size: 50px;
+    font-family: "Snap ITC";
+    color: #5288d0;
+}
+    </style>
+</head>
+<body>
+<div class="hero">
+    <nav>
+        <h2 class="logo">Mella <span>Mewii</span> </h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li> <a href="/contact/">Contact</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/project/">Projects</a></li>
+    </ul>
+    
+    </nav>
+</div>
+
+
+<section id="services" class="services">
+    
+    <center>
+         <div class="section-title">
+          <h3 class="sass">Services</h3>
+          <p class="fancy">High quality services are offered to all my clients with no exception. <br> Trusting my work is never a wrong option.</p>
+        </div>
+          <div class="flex-container">
+        <div class="flex-box"><h3>Developing websites</h3>
+            Tides do change, don't they?The universe exhibiting its cheat code on you wasn't the prettiest thing that would have crossed your mind.No?
+Just like that the hunter became the prey.
+            
+        </div>
+        <div class="flex-box"><h3>Drawing portraits</h3>Funny thing is how you would delve and delight in the remorse of those you turned down.
+Elated at crushing their desperate charms to sweep you off your feet.Must have been mattifying.</div>
+        <div class="flex-box"><h3>Designing programmes</h3>In accordance to the law of attraction, it was about time you had a share fair of that despondent and mortifying feeling.It was payback time.
+The lad innocently walked into your life,carefully playing his cards right.
+    </div>
+    <div class="flex-container">
+        
+        <div class="flex-box"><h3>Swimming trainer</h3>Like an ignorant fool his claws sank deeper into you till all you could do was let him occupy your thoughts all day.It was Ryan this and Ryan that.
+You had become captive of his charms.
+
+You flaunted him.</div>
+        <div class="flex-box"><h3>Freelancer</h3>Boasted about him to your pals.Only to get what was coming for you in the end.Girl!You became obessesed with this fellow,infatuated by him.
+Delulu is how they frame it this days.It was him or nothing.</div>
+        <div class="flex-box"><h3>Basketballer</h3>This spurred a turmoil of emotions within you.
+Led to you embarking on the infamous stalking journey.
+A total psychopathic maniac is what became of you.You validated all the females he followed on his socials.</div>
+    </div>
+    
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <h4 class="title"><a href="">Drawing portraits</a></h4>
+            <p class="description">Art is a skilled I have horned into my fingers and only exquisite results are obtained.</p>
+              <img src="{% static 'images/sunflowers.jpg' %}" width="300" height="200" alt="">
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="title"><a href="">Playing Basketball for teams</a></h4>
+            <p class="description">I am dedicated to the sport wholly and have great technique especially when playing the small forward position.</p>
+               <img src="{% static 'images/tech pic3.jpg' %}" width="300" alt="">
+          </div>
+          
+          
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Best fashion designer</a></h4>
+            <p class="description">My fashion taste is the best in town. </p>
+              <img src="{% static 'images/yellow jumpsuit.jpg' %}" width="200" alt="">
+          </div>
+          
+        
+
+      </div>
+    </section>
+    </center>
+
+       
+
+      
+
+</body>
+</html>
